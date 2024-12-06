@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfólio Pessoal</title>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">NG</div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação Educacional</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre" class="dev container fade-in">
+            <div class="dev-texto">
+                <h1>Neto Góes</h1>
+                <p>Desenvolvedor front-end, apaixonado por criar experiências digitais inovadoras. Entusiasta da tecnologia e amante de animais, combina criatividade e dedicação para transformar ideias em soluções que fazem a diferença.</p>
+                <a class="botao-de-contato" href="#contato">Entre em contato</a>
+            </div>
+            <div class="dev-imagem">
+                <img src="imagem/dude.png" alt="imagem de um programador" class="imagem-perfil">
+            </div>
+        </section>
+
+        <section id="formacao" class="container fade-in">
+            <h2>Formação Educacional</h2>
+            <div class="formacao-grid">
+                <div class="formacao-item">
+                    <div class="formacao-icon">🌍</div>
+                    <h3>Idioma</h3>
+                    <p>Inglês Básico</p>
+                </div>
+
+                <div class="formacao-item">
+                    <div class="formacao-icon">&#128187;</div>
+                    <h3>Front-end</h3>
+                    <p>HTML e CSS</p>
+                </div>
+            
+                <div class="formacao-item">
+                    <div class="formacao-icon">&#128736;</div>
+                    <h3>Ferramentas</h3>
+                    <p>Git e GitHub</p>
+                </div>
+
+                <div class="formacao-item">
+                    <div class="formacao-icon">🧑‍⚕️</div>
+                    <h3>Fisioterapia</h3>
+                    <p>Formado em 2024</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="container fade-in">
+            <h2>Projetos</h2>
+            <div class="projetos-grid">
+                <div class="projeto-card">
+                    <h3 class="titulo-projeto">Menu de um site</h3>
+                    <p>Criei um mini-projeto de um menu de navegação responsivo, para praticar meus estudos e fixar meu conhecimento.</p>
+                    <div class="projeto-tags">
+                        <a href="https://netogoes20.github.io/projeto-menu-navbar/" target="_blank">Acesse ao meu mini-proejto</a>
+                    </div>
+                </div>
+                <div class="projeto-card">
+                    <h3 class="titulo-projeto">Landing Page de um Hamburguer</h3>
+                    <p>Um mini-projeto de um landing page para praticar e fixar os estudos de html, css e pouco de javascript</p>
+                    <div class="projeto-tags">
+                        <a href="https://netogoes20.github.io/projeto-hamburguer/" target="_blank">Acesse ao meu projeto</a>
+                    </div>
+                </div>
+                <div class="projeto-card">
+                    <h3 class="titulo-projeto">Cardápio de um site responsivo</h3>
+                    <p>Um projeto mais complexo usando HTML, CSS e pouco de JavaScript, com intuito apenas de praticar e fixar conhecimento./p>
+                    <div class="projeto-tags">
+                        <a href="https://netogoes20.github.io/projeto-cardapio/" target="_blank">Acesse ao projeto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contato" class="contato fade-in">
+            <h2 class="titulo-contato">Contate-me</h2>
+            <form action="" class="contato-form">
+                <div class="grupo-formulario">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" id="email" required>
+                </div>
+                <div class="grupo-formulario">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="menagem" id="mensagem" required></textarea>
+                </div>
+                <button type="submit">Mandar mensagem</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <ul class="icones-footer">
+            <li>&#128187;</li>
+            <li>&#128101;</li>
+            <li>&#128038;</li>
+        </ul>
+        <p>&copy; 2024 Neto Góes. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
