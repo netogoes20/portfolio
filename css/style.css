@@ -6,8 +6,8 @@
 
 :root {
     --cor-de-fundo: #f0f4f8;
-    --cor-auxiliar: #ed8936;
-    --cor-de-fundo-card: #ffffff;
+    --cor-auxiliar: #9146ff;
+    --cor-de-fundo-card: #85F1FF;
     --cor-de-texto: #1a202c;
     --cor-primaria: #4299e1;
     --cor-secundaria: #2b6cb0;
@@ -70,7 +70,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: var(--cor-primaria);
+    color: #2B6CB0;
 }
 
 main {
